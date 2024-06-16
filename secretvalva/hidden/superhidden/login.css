@@ -1,0 +1,158 @@
+/* superhidden/login.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    max-width: 800px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  h2 {
+    width: 100%;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .vl {
+    position: relative;
+    width: 1px;
+    background-color: #ccc;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .vl .vl-innertext {
+    position: absolute;
+    background-color: white;
+    padding: 0 10px;
+    color: #888;
+  }
+  
+  .col {
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .fb,
+  .twitter,
+  .google {
+    background-color: #3b5998;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-decoration: none;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  .twitter {
+    background-color: #55acee;
+  }
+  
+  .google {
+    background-color: #dd4b39;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 5px;
+  }
+  
+  input[type="text"]:focus,
+  input[type="password"]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  input[type="submit"] {
+    background-color: #04aa6d;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .hide-md-lg {
+    display: none;
+  }
+  
+  .bottom-container {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  .bottom-container .row {
+    justify-content: space-between;
+  }
+  
+  .bottom-container .col {
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .bottom-container .btn {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  /* Responsive layout */
+  @media screen and (max-width: 650px) {
+    .col {
+      flex: 100%;
+      margin: 0;
+    }
+  
+    .hide-md-lg {
+      display: block;
+      text-align: center;
+    }
+  
+    .vl {
+      display: none;
+    }
+  }
+  

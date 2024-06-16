@@ -1,0 +1,64 @@
+/* secretvalva/assets/index.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Light grey background for better contrast */
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  /* Top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #04aa6d;
+    color: white;
+  }
+  
+  /* Container for image and text */
+  .imgcontainer {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .imgcontainer .responsive {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow to the image */
+  }
+  
+  .imgcontainer .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    background: rgba(0, 0, 0, 0.5); /* Add a background with some transparency */
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
